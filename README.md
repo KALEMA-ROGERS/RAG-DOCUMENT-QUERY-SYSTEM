@@ -32,6 +32,11 @@ docker-compose build
 ```bash
 docker-compose up
 ```
+## Or Run it Locally
+```
+activate the virtual environment
+venv\Scripts\activate
+python -m streamlit run app/streamlit_app.py
 
 ### 5. Access
 Open your browser at: http://localhost:8501
